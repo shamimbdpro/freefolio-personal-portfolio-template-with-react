@@ -1,0 +1,131 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px){
+	.container{
+		max-width: 1140px;
+	}
+
+}
+@media (min-width: 992px) {
+	.canvas_open {
+		display: none;
+	}
+}
+@media (max-width: 991px) {
+	.logo {
+		float: left;
+	}
+	.canvas_open {
+		float: right;
+		overflow: hidden;
+	}
+	.menu {
+		display: none;
+	}
+	.header-bottom {
+		padding: 20px 0px;
+	}
+	.hero-section {
+		padding-top: 100px;
+	}
+	.about-content {
+		margin-top: 40px;
+	}
+ 
+}
+@media (max-width: 767px) {
+	.top-info {
+		text-align: center;
+		margin-bottom: 12px;
+		padding-top: 10px;
+	}
+	.top-social {
+		text-align: center;
+		padding-bottom: 10px;
+	}
+	.top-social ul li a i {
+		border: none;
+	}
+	.top-social ul li:first-child a i {
+		border-left: none;
+	}
+	.services-area, .about-area, .latest-work, .testimonial-area, .contact-area {
+		padding: 70px 0px;
+	}
+	.team-area, .latest-blog, .counter-area, .pricing-area, .our-tools-wrapper, .portfolio-area {
+		padding-top: 70px;
+		padding-bottom: 40px;
+	}
+ 
+}
+@media (max-width: 576px) {
+	.hero-caption h2 {
+		font-size: 40px;
+	}
+	.services-area, .about-area .latest-work, .testimonial-area, .contact-area {
+		padding: 50px 0px;
+	}
+	.team-area, .latest-blog, .counter-area, .pricing-area, .our-tools-wrapper, .portfolio-area{
+		padding-top: 50px;
+		padding-bottom: 20px;
+	}
+	.about-content h2 {
+		font-size: 32px;
+		margin-top: 0px;
+		margin-bottom: 10px;
+		line-height: 1.1;
+	}
+	.services-details-content h2 {
+		font-size: 28px;
+		line-height: 1.1;
+	}
+	.portfolio-details h2 {
+		font-size: 24px;
+		font-weight: 600;
+	}
+	.comments-list ul li {
+		position: relative;
+		padding-left: 0px;
+	}
+	.comments-list ul li img {
+		position: inherit;
+		width: 80px;
+		margin-bottom: 20px;
+	}
+	 
+}
+@media (max-width: 360px) {
+	.hero-caption h2 {
+		font-size: 32px;
+	}
+	.hero-caption p {
+		font-size: 16px;
+	}
+	.services-area {
+		padding: 40px 0px;
+	}
+	.section-headding h2 {
+		font-size: 32px;
+	}
+	.services-item, .about-area .latest-work, .testimonial-area{
+		padding: 40px 20px;
+	}
+	.team-area, .latest-blog, .counter-area, .pricing-area, .our-tools-wrapper, .portfolio-area {
+		padding-top: 40px;
+		padding-bottom: 10px;
+	}
+	.comments-form textarea {
+		padding: 15px 10px;
+		height: 130px;
+	}
+	.comments-form input {
+		padding: 16px 16px;
+	}
+	.contact-form input {
+		padding: 20px 16px;
+	}
+	.breadcrumb-content h2 {
+		font-size: 32px;
+		margin-bottom: 5px;
+	}
+ 
+}
