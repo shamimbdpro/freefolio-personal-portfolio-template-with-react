@@ -50,28 +50,13 @@ export default class Header extends Component {
                                                 <li><Link to="about">About</Link></li>
                                                 <li><a href="#">Page</a>
                                                     <ul>
-                                                        <li><a href="team.html">Team</a></li>
-                                                        <li><a href="pricing.html">Pricing</a></li>
-                                                        <li><a href="contact.html">Contact Us</a></li>
+                                                        <li><Link to="team">Team</Link></li>
+                                                        <li><Link to="price">Pricing</Link></li>
                                                     </ul>
                                                 </li>
-                                                <li><a href="services.html">Services</a>
-                                                    <ul>
-                                                        <li><a href="services.html">Services</a></li>
-                                                        <li><a href="services-single.html">Services Details</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="portfolio.html">Portfolio</a>
-                                                    <ul>
-                                                        <li><a href="portfolio.html">Portfolio</a></li>
-                                                        <li><a href="portfolio-single.html">Portfolio Details</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="blog.html">Blog</a>
-                                                    <ul>
-                                                        <li><a href="blog.html">Blog</a></li>
-                                                        <li><a href="single.html">Blog Details</a></li>
-                                                    </ul>
+                                                <li><Link to="service">Services</Link> </li>
+                                                <li><Link to="portfolio">Portfolio</Link></li>
+                                                <li><Link to="blog">Blog</Link>
                                                 </li>
                                                 <li><Link to="contact">Contact</Link></li>
                                             </ul>

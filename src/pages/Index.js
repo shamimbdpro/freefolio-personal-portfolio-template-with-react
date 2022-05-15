@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import {Link} from "react-router-dom"
+
 export default class Index extends Component {
   render() {
     return (
@@ -92,7 +94,7 @@ export default class Index extends Component {
             </div>
             <div className="row">
               <div className="col-lg-12 text-center mt-10">
-                <a className="button-2" href="services.html">More Services</a>
+                <Link className="button-2" to="service">More Services</Link>
               </div>
             </div>
           </div>
