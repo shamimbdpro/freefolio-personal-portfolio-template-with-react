@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
 export default class Service extends Component {
   render() {
@@ -21,6 +22,7 @@ export default class Service extends Component {
 			</div>
 		</div>
 	</section>
+
 	{/* <!-- End Breadcrumb Area -->  */}
 	<section className="services-area pt-100 pb-100 section-bg">
 		<div className="container">
@@ -47,7 +49,7 @@ export default class Service extends Component {
 						</div>
 						<div className="content">
 							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry</p>
-							<a href="services-single.html">Read More</a>
+							<Link to="digital-marketing">Read More</Link>
 						</div>
 					</div>
 				</div>
@@ -64,7 +66,7 @@ export default class Service extends Component {
 						</div>
 						<div className="content">
 							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry</p>
-							<a href="services-single.html">Read More</a>
+							<Link to="digital-marketing">Read More</Link>
 						</div>
 					</div>
 				</div>
@@ -81,7 +83,7 @@ export default class Service extends Component {
 						</div>
 						<div className="content">
 							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry</p>
-							<a href="services-single.html">Read More</a>
+							<Link to="digital-marketing">Read More</Link>
 						</div>
 					</div>
 				</div>
@@ -98,7 +100,7 @@ export default class Service extends Component {
 						</div>
 						<div className="content">
 							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry</p>
-							<a href="services-single.html">Read More</a>
+							<Link to="digital-marketing">Read More</Link>
 						</div>
 					</div>
 				</div>
@@ -115,7 +117,7 @@ export default class Service extends Component {
 						</div>
 						<div className="content">
 							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry</p>
-							<a href="services-single.html">Read More</a>
+							<Link to="digital-marketing">Read More</Link>
 						</div>
 					</div>
 				</div>
@@ -132,7 +134,7 @@ export default class Service extends Component {
 						</div>
 						<div className="content">
 							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry</p>
-							<a href="services-single.html">Read More</a>
+							<Link to="digital-marketing">Read More</Link>
 						</div>
 					</div>
 				</div>

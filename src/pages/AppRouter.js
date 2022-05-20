@@ -10,6 +10,7 @@ import About from "./About"
 import Team from "./Team"
 import Price from "./Price"
 import Service from "./Service"
+import ServiceSingle from "./ServiceSingle"
 import Portfolio from "./Portfolio"
 import Blog from "./Blog"
 import BlogSingle from "./Single"
@@ -25,6 +26,7 @@ export default class AppRouter extends Component {
                   <Route path="/" element={ <Home /> } />
                   <Route path="/about" element={ <About /> } />
                   <Route path="/service" element={ <Service /> } />
+                  <Route path="service/:slug" exact element={ <ServiceSingle /> } />
                   <Route path="/team" element={ <Team /> } />
                   <Route path="/price" element={ <Price /> } />
                   <Route path="/portfolio" element={ <Portfolio /> } />

@@ -5,6 +5,22 @@ export default class Team extends Component {
         return (
             <div>
 
+      {/* <!-- Start Breadcrumb Area -->  */}
+      <section className="breadcrumb-area" style={{backgroundImage:`url(${'assets/img/breadcrumb.jpg'})`}}>
+		<div className="container">
+			<div className="row">
+				<div className="col-lg-12">
+					<div className="breadcrumb-content pt-50 pb-50">
+						<h2>Services</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li>Services</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
                 {/* <!-- End Breadcrumb Area -->  */}
                 <section className="team-area pt-100 pb-70">
